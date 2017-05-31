@@ -10,9 +10,10 @@ import com.facebook.soloader.SoLoader;
 
 import java.util.Arrays;
 import java.util.List;
-
-import com.reactnativenavigation.NavigationApplication;
 import com.microsoft.codepush.react.CodePush;
+import com.reactnativenavigation.NavigationApplication;
+
+
 public class MainApplication extends NavigationApplication {
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
@@ -53,7 +54,7 @@ public class MainApplication extends NavigationApplication {
     // Add additional packages you require here
     // No need to add RnnPackage and MainReactPackage
     return Arrays.<ReactPackage>asList(
-            new CodePush("deployment-key-here", MainApplication.this, BuildConfig.DEBUG)
+            new CodePush("MK8NU2JRFCzxV8addsxFCxT2Z_U4N15TtT7-X", MainApplication.this, BuildConfig.DEBUG)
     );
   }
 
