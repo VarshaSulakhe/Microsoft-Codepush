@@ -13,9 +13,9 @@ const Authentication = (props) => {
       <View style={styles.container}>
       <Text>Welcome</Text>
          <TextInput
-           
+            
             style={styles.input}
-            placeholder='Email'
+            placeholder='Email-1'
             autoCapitalize='none'
             onChangeText={props.updateEmail}
          />

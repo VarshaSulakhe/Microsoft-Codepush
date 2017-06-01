@@ -10,7 +10,7 @@ export default () => {
 	Navigation.startSingleScreenApp({
 		screen: {
 			screen: 'Screen1',
-			title: 'Screen1',
+			title: 'Login',
 			navigatorStyle: {}, // override the navigator style for the screen, see "Styling the navigator" below (optional)
     		navigatorButtons: {} 
 		}

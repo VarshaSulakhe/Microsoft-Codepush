@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
+import codePush from "react-native-code-push";
 import registerApp from './app/index';
-import CodePush from 'react-native-code-push';
+let codePushOptions = { checkFrequency: codePush.CheckFrequency.ON_APP_RESUME };
 
-class reactnativeCodepush extends Component {
-
-  componentDidMount() {
-    CodePush.sync({updateDialog: true, installMode: CodePush.InstallMode.IMMEDIATE})
-      .then(update => console.log('update', update))
-      .catch(err => console.log('update error', err));
-  }
-
+class MyApp extends Component {
+	
 }
+
+MyApp = codePush(codePushOptions)(MyApp);
 registerApp();

@@ -6,7 +6,7 @@ class Screen extends Component {
   render() {
     return (
       <View>
-      <Text>Screen2</Text>
+      <Text>Home1</Text>
       </View>
      
     );
